@@ -73,3 +73,19 @@ img  = Image.open("CarImage.jpg")
 img.show()
 
 print(f"Image Size is {img.size} and image format {img.format} mode is {img.mode}  ")
+
+# Universal Function
+
+arr6 =   np.arange(1,10,2)
+
+print(arr)
+
+print(np.sqrt(arr6))
+print(np.exp(arr6))
+
+
+x = np.random.rand(6)
+y = np.random.rand(6)
+
+print(x)
+print(y)
